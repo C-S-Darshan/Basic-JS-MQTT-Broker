@@ -10,11 +10,15 @@ This project sets up an MQTT broker using **Aedes** and a simple web client to s
 ## Requirements
 - **Node.js**: Ensure that Node.js is installed on your system.
 
-## Setup
+## Setup & Running the Broker  
 
+> **Note:** All commands should be executed in the **VS Code terminal**.
+ 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/C-S-Darshan/Basic-JS-MQTT-Broker.git
+```
+```bash
 cd Basic-JS-MQTT-Broker
 ```
 
@@ -29,6 +33,7 @@ npm install aedes mqtt websocket-stream
 node broker.js
 ```
 
-### 4. Open the web client
-Open `client.html` in a web browser.
+### 4. Open the Web Client  
+Open `client.html` in a web browser. To subscribe to a topic, enter the topic name and click the **"Subscribe"** button.  
+
 
